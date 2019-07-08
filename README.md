@@ -1,16 +1,18 @@
 # Docker-mysql-phpmyadmin_node-express
 Dockerでmysplとphpmyadmin環境を準備してnode.jsからDBデータを参照する
+<br><br><br>
 
-1. Docker環境を構築する（MySQLとphpMyAdminのインストールと起動）  
+## 手順
+**1. Docker環境を構築する（MySQLとphpMyAdminのインストールと起動）**  
   $ `docker-compose up -d`  
 
-2. phpMyAdminへのアクセス  
+**2. phpMyAdminへのアクセス**  
   http://localhost:8080/  
 
-3. npmのモジュールをインストール（expressとmysql）  
+**3. npmのモジュールをインストール（expressとmysql）**  
   $ `npm i`  
 
-4. 各jsファイルからNodeのWebサーバーを立ち上げてブラウザからアクセスして動作を確認する  
+**4. 各jsファイルからNodeのWebサーバーを立ち上げてブラウザからアクセスして動作を確認する**  
 
     * Webサーバー立ち上げを確認 - 「hello world」  
     $ `node index.js`  
