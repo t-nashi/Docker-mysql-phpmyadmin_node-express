@@ -1,0 +1,2 @@
+# Docker-mysql-phpmyadmin_node-express
+Dockerでmysplとphpmyadmin環境を準備してnode.jsからDBデータを参照する
