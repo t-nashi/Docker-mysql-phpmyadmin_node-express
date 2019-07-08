@@ -35,3 +35,10 @@ docker-compose ps
 docker-compose stop  
 docker-compose down  
 npm ls --depth=0
+
+-----
+◆docker-compose でMySQL環境簡単構築 - Qiita
+https://qiita.com/A-Kira/items/f401aea261693c395966
+
+
+
